@@ -1,4 +1,5 @@
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/ariesve.mk \
     $(LOCAL_DIR)/galaxysmtd.mk \
     $(LOCAL_DIR)/d2att.mk \
     $(LOCAL_DIR)/d2tmo.mk \

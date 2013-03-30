@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration.
-$(call inherit-product, device/samsung/ariesve/ariesve.mk)
+$(call inherit-product, device/samsung/ariesve/full_ariesve.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/supernexus/configs/common.mk)

@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration.
-$(call inherit-product, device/samsung/ariesve/full_ariesve.mk)
+$(call inherit-product, device/samsung/ariesve/ariesve.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/supernexus/configs/common.mk)
@@ -8,7 +8,7 @@ $(call inherit-product, vendor/supernexus/configs/common.mk)
 $(call inherit-product, vendor/supernexus/configs/gsm.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := full_ariesve
+PRODUCT_NAME := ariesve
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := ariesve
 PRODUCT_MODEL := GT-I9001
